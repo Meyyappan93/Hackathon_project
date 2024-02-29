@@ -1,0 +1,51 @@
+12:50:06.781 [main] INFO  testCases.TC001_BookShelves - ------Select the gift amount-------
+12:50:07.390 [main] INFO  testCases.TC001_BookShelves - ------Filling the form Lucky person-------
+12:50:11.912 [main] INFO  testCases.TC001_BookShelves - ------Clicking the confirm button-------
+12:50:15.301 [main] INFO  testCases.TC001_BookShelves - ------Getting the error message-------
+12:50:15.516 [main] INFO  testCases.TC001_BookShelves - ------Enter the valid Email-------
+12:50:18.880 [main] INFO  testCases.TC001_BookShelves - ------Clicking the confirm button-------
+12:53:27.765 [main] INFO  testCases.TC001_BookShelves - ------Searched BookShelves-------
+12:54:00.357 [main] INFO  testCases.TC001_BookShelves - ------Choosing product under ₹15,000-------
+12:54:30.788 [main] INFO  testCases.TC001_BookShelves - ------Clicking the Checkbox exclude out of stock-------
+12:55:06.214 [main] INFO  testCases.TC001_BookShelves - ------Printing the product details-------
+12:55:36.568 [main] INFO  testCases.TC001_BookShelves - ------Mouse hovering to the header Living-------
+12:55:40.080 [main] INFO  testCases.TC001_BookShelves - ------Printing the menu list of seating&chairs-------
+12:55:44.455 [main] INFO  testCases.TC001_BookShelves - ------Clicked the Giftcards-------
+12:55:44.465 [main] INFO  testCases.TC001_BookShelves - ------Choosing Birthday/Anniversay-------
+12:55:50.167 [main] INFO  testCases.TC001_BookShelves - ------Select the gift amount-------
+12:55:50.210 [main] INFO  testCases.TC001_BookShelves - ------Filling the form Lucky person-------
+12:55:50.475 [main] INFO  testCases.TC001_BookShelves - ------Getting the error message-------
+12:55:50.533 [main] INFO  testCases.TC001_BookShelves - ------Enter the valid Email-------
+12:57:09.705 [main] INFO  testCases.TC001_BookShelves - ------Searched BookShelves-------
+12:57:12.519 [main] INFO  testCases.TC001_BookShelves - ------Handled the popup-------
+12:57:15.082 [main] INFO  testCases.TC001_BookShelves - ------Choosing product under ₹15,000-------
+12:57:17.948 [main] INFO  testCases.TC001_BookShelves - ------Choosing the product category-------
+12:57:18.594 [main] INFO  testCases.TC001_BookShelves - ------Clicking the Checkbox exclude out of stock-------
+12:57:18.703 [main] INFO  testCases.TC001_BookShelves - ------Sorting the price from high to low-------
+12:57:24.279 [main] INFO  testCases.TC001_BookShelves - ------Printing the product details-------
+12:57:26.197 [main] INFO  testCases.TC001_BookShelves - ------Mouse hovering to the header Living-------
+12:57:29.607 [main] INFO  testCases.TC001_BookShelves - ------Printing the menu list of seating&chairs-------
+12:57:37.452 [main] INFO  testCases.TC001_BookShelves - ------Clicked the Giftcards-------
+12:57:37.457 [main] INFO  testCases.TC001_BookShelves - ------Choosing Birthday/Anniversay-------
+12:57:37.853 [main] INFO  testCases.TC001_BookShelves - ------Select the gift amount-------
+12:57:38.533 [main] INFO  testCases.TC001_BookShelves - ------Filling the form Lucky person-------
+12:57:42.740 [main] INFO  testCases.TC001_BookShelves - ------Clicking the confirm button-------
+12:57:46.095 [main] INFO  testCases.TC001_BookShelves - ------Getting the error message-------
+12:57:46.401 [main] INFO  testCases.TC001_BookShelves - ------Enter the valid Email-------
+12:57:49.919 [main] INFO  testCases.TC001_BookShelves - ------Clicking the confirm button-------
+15:05:08.957 [main] INFO  testCases.TC001_BookShelves - ------Searched BookShelves-------
+15:05:09.883 [main] INFO  testCases.TC001_BookShelves - ------Handled the popup-------
+15:05:12.548 [main] INFO  testCases.TC001_BookShelves - ------Choosing product under ₹15,000-------
+15:05:15.354 [main] INFO  testCases.TC001_BookShelves - ------Choosing the product category-------
+15:05:16.050 [main] INFO  testCases.TC001_BookShelves - ------Clicking the Checkbox exclude out of stock-------
+15:05:16.206 [main] INFO  testCases.TC001_BookShelves - ------Sorting the price from high to low-------
+15:05:21.744 [main] INFO  testCases.TC001_BookShelves - ------Printing the product details-------
+15:05:23.481 [main] INFO  testCases.TC001_BookShelves - ------Mouse hovering to the header Living-------
+15:05:26.888 [main] INFO  testCases.TC001_BookShelves - ------Printing the menu list of seating&chairs-------
+15:06:31.064 [main] INFO  testCases.TC001_BookShelves - ------Clicked the Giftcards-------
+15:06:31.094 [main] INFO  testCases.TC001_BookShelves - ------Choosing Birthday/Anniversay-------
+15:06:31.763 [main] INFO  testCases.TC001_BookShelves - ------Select the gift amount-------
+15:06:32.754 [main] INFO  testCases.TC001_BookShelves - ------Filling the form Lucky person-------
+15:06:37.364 [main] INFO  testCases.TC001_BookShelves - ------Clicking the confirm button-------
+15:06:40.820 [main] INFO  testCases.TC001_BookShelves - ------Getting the error message-------
+15:06:41.300 [main] INFO  testCases.TC001_BookShelves - ------Enter the valid Email-------

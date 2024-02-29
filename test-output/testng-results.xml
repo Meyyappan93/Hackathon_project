@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T14:12:21 IST" name="Suite" finished-at="2024-02-29T14:14:41 IST" duration-ms="140448">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_BookShelves.HandlePopup()[pri:1, instance:testCases.TC001_BookShelves@771a660]" name="HandlePopup" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.SelectFilters()[pri:2, instance:testCases.TC001_BookShelves@771a660]" name="SelectFilters" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.pricePriority()[pri:3, instance:testCases.TC001_BookShelves@771a660]" name="pricePriority" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.prntProductDetails()[pri:4, instance:testCases.TC001_BookShelves@771a660]" name="prntProductDetails" class="testCases.TC001_BookShelves"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_BookShelves.HandlePopup()[pri:1, instance:testCases.TC001_BookShelves@771a660]" name="HandlePopup" class="testCases.TC001_BookShelves"/>
+        <method signature="TC002_Living.viewLiving()[pri:1, instance:testCases.TC002_Living@4f80542f]" name="viewLiving" class="testCases.TC002_Living"/>
+        <method signature="TC003_GiftCards.chooseGiftCard()[pri:1, instance:testCases.TC003_GiftCards@130c12b7]" name="chooseGiftCard" class="testCases.TC003_GiftCards"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001_BookShelves.HandlePopup()[pri:1, instance:testCases.TC001_BookShelves@771a660]" name="HandlePopup" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.SelectFilters()[pri:2, instance:testCases.TC001_BookShelves@771a660]" name="SelectFilters" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.pricePriority()[pri:3, instance:testCases.TC001_BookShelves@771a660]" name="pricePriority" class="testCases.TC001_BookShelves"/>
+        <method signature="TC001_BookShelves.prntProductDetails()[pri:4, instance:testCases.TC001_BookShelves@771a660]" name="prntProductDetails" class="testCases.TC001_BookShelves"/>
+        <method signature="TC002_Living.prntSubmenu()[pri:2, instance:testCases.TC002_Living@4f80542f]" name="prntSubmenu" class="testCases.TC002_Living"/>
+        <method signature="TC002_Living.viewLiving()[pri:1, instance:testCases.TC002_Living@4f80542f]" name="viewLiving" class="testCases.TC002_Living"/>
+        <method signature="TC003_GiftCards.chooseGiftCard()[pri:1, instance:testCases.TC003_GiftCards@130c12b7]" name="chooseGiftCard" class="testCases.TC003_GiftCards"/>
+        <method signature="TC003_GiftCards.enterAmount()[pri:2, instance:testCases.TC003_GiftCards@130c12b7]" name="enterAmount" class="testCases.TC003_GiftCards"/>
+        <method signature="TC003_GiftCards.enterValidDetails()[pri:5, instance:testCases.TC003_GiftCards@130c12b7]" name="enterValidDetails" class="testCases.TC003_GiftCards"/>
+        <method signature="TC003_GiftCards.formDetails()[pri:3, instance:testCases.TC003_GiftCards@130c12b7]" name="formDetails" class="testCases.TC003_GiftCards"/>
+        <method signature="TC003_GiftCards.printErrorMs()[pri:4, instance:testCases.TC003_GiftCards@130c12b7]" name="printErrorMs" class="testCases.TC003_GiftCards"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-29T14:12:21 IST" name="Test" finished-at="2024-02-29T14:14:41 IST" duration-ms="140448">
+      <class name="testCases.TC002_Living">
+        <test-method signature="viewLiving()[pri:1, instance:testCases.TC002_Living@4f80542f]" started-at="2024-02-29T14:12:59 IST" name="viewLiving" finished-at="2024-02-29T14:12:59 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewLiving -->
+        <test-method signature="prntSubmenu()[pri:2, instance:testCases.TC002_Living@4f80542f]" started-at="2024-02-29T14:12:59 IST" name="prntSubmenu" finished-at="2024-02-29T14:13:50 IST" duration-ms="50199" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (3029faf9ec473e9302f88541238f3a55)] -> xpath: (//ul/li[3]/div/div/ul/li[1]//a)[1]] (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64454/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3029faf9ec473e9302f88541238f3a55]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (3029faf9ec473e9302f88541238f3a55)] -> xpath: (//ul/li[3]/div/div/ul/li[1]//a)[1]] (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64454/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3029faf9ec473e9302f88541238f3a55
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.BasePage.wait(BasePage.java:21)
+at pageObjects.Living.seatingAndChairs(Living.java:33)
+at testCases.TC002_Living.prntSubmenu(TC002_Living.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntSubmenu -->
+      </class> <!-- testCases.TC002_Living -->
+      <class name="testCases.TC001_BookShelves">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:12:21 IST" name="setup" finished-at="2024-02-29T14:12:31 IST" duration-ms="10243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlePopup()[pri:1, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:12:31 IST" name="HandlePopup" finished-at="2024-02-29T14:12:56 IST" duration-ms="24835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlePopup -->
+        <test-method signature="SelectFilters()[pri:2, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:12:57 IST" name="SelectFilters" finished-at="2024-02-29T14:12:58 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFilters -->
+        <test-method signature="pricePriority()[pri:3, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:12:58 IST" name="pricePriority" finished-at="2024-02-29T14:12:58 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricePriority -->
+        <test-method signature="prntProductDetails()[pri:4, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:12:58 IST" name="prntProductDetails" finished-at="2024-02-29T14:12:59 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prntProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_BookShelves@771a660]" started-at="2024-02-29T14:14:40 IST" name="tearDown" finished-at="2024-02-29T14:14:41 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_BookShelves -->
+      <class name="testCases.TC003_GiftCards">
+        <test-method signature="chooseGiftCard()[pri:1, instance:testCases.TC003_GiftCards@130c12b7]" started-at="2024-02-29T14:13:50 IST" name="chooseGiftCard" finished-at="2024-02-29T14:14:23 IST" duration-ms="32907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseGiftCard -->
+        <test-method signature="enterAmount()[pri:2, instance:testCases.TC003_GiftCards@130c12b7]" started-at="2024-02-29T14:14:23 IST" name="enterAmount" finished-at="2024-02-29T14:14:23 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmount -->
+        <test-method signature="formDetails()[pri:3, instance:testCases.TC003_GiftCards@130c12b7]" started-at="2024-02-29T14:14:24 IST" name="formDetails" finished-at="2024-02-29T14:14:31 IST" duration-ms="7456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formDetails -->
+        <test-method signature="printErrorMs()[pri:4, instance:testCases.TC003_GiftCards@130c12b7]" started-at="2024-02-29T14:14:31 IST" name="printErrorMs" finished-at="2024-02-29T14:14:32 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printErrorMs -->
+        <test-method signature="enterValidDetails()[pri:5, instance:testCases.TC003_GiftCards@130c12b7]" started-at="2024-02-29T14:14:32 IST" name="enterValidDetails" finished-at="2024-02-29T14:14:40 IST" duration-ms="7843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValidDetails -->
+      </class> <!-- testCases.TC003_GiftCards -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
